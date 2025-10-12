@@ -5,6 +5,8 @@ import Herosection from "./components/Herosection";
 import About from "./components/About";
 import Service from "./components/Service";
 import Persuasi from "./components/Persuasi";
+import Contact from "./components/Contact";
+import Client from "./components/Client";
 
 function App() {
   return (
@@ -16,8 +18,9 @@ function App() {
     </div>
       <About/>
       <Service/>
-      
+      <Client/>
       <Persuasi/>
+      <Contact/>
       <Footer/>
     
     </>

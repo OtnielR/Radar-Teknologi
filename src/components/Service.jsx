@@ -2,7 +2,7 @@ function Service() {
   return (
     <div className="w-full">
       <div className="title flex flex-col justify-center text-center">
-        <h1 className="font-bold text-4xl">Service Kami</h1>
+        <h1 className="font-bold text-3xl">Service Kami</h1>
         <p>Berikut ini adalah jasa yang ada pada kami</p>
       </div>
 
