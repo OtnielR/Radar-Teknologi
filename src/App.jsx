@@ -11,6 +11,7 @@ import Client from "./components/Client";
 function App() {
   return (
     <>
+
     <div className="bg-[#2a3342]">
 
       <Header></Header>
@@ -23,6 +24,7 @@ function App() {
       <Contact/>
       <Footer/>
     
+
     </>
   );
 }

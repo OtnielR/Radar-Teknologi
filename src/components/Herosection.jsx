@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Herosection() {
   return (
@@ -16,6 +16,8 @@ function Herosection() {
         </div>
     </div>
   )
+
+
 }
 
 export default Herosection
