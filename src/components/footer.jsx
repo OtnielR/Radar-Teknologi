@@ -1,6 +1,4 @@
-
-
-function footer() {
+export default function Footer() {
   return (
     <div className="flex flex-col justify-center px-10 mx-19">
         <div className="atas flex flex-row justify-between bg-white items-center px-10 py-4 rounded-lg shadow-2xl">
@@ -49,6 +47,6 @@ function footer() {
        </div>
     </div>
   )
+
 }
 
-export default footer
