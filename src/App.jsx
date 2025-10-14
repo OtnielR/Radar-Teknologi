@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/footer";
 import Herosection from "./components/Herosection"
 import About from "./components/About"
-
+import Visi from "./components/Visi";
 function App() {
   return (
     <>
@@ -11,8 +11,8 @@ function App() {
         <Header></Header>
         <Herosection />
       </div>
-
       <About />
+      <Visi/>
       <Footer></Footer>
     </>
   );
