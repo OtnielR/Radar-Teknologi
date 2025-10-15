@@ -5,7 +5,7 @@ import { Autoplay } from "swiper/modules";
 
 export default function PartnerCarousel() {
   return (
-    <div className="w-full flex-col justify-center items-center py-20 bg-white" id="portfolio">
+    <div className="w-full flex-col justify-center items-center py-20 bg-white" id="portofolio">
       <div className="flex flex-col justify-center items-center pt-10 pb-20">
         <h1 className="text-3xl font-bold">Client Kami</h1>
         <p className="pt-3">Berikut beberapa perusahaan, instansi, sekolah dan kampus yang sudah bergabung bersama kami</p>
