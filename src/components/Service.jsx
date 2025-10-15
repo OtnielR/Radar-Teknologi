@@ -6,8 +6,8 @@ function Service() {
         <p>Berikut ini adalah jasa yang ada pada kami</p>
       </div>
 
-      <div className="flex justify-center gap-12 py-30">
-        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white">
+      <div className="flex flex-col lg:flex-row lg:gap-12 justify-center items-center gap-20 py-30">
+        <div className="relative flex flex-col lg:flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white">
           <div className="absolute -top-30">
             <img src="csc.png" alt="CSC Komputer" className="w-66 h-66 object-contain" />
           </div>
