@@ -5,11 +5,11 @@ import { Autoplay } from "swiper/modules";
 
 export default function PartnerCarousel() {
   return (
-    <div className="w-full flex-col justify-center items-center py-20 bg-white">
-        <div className="flex flex-col justify-center items-center pt-10 pb-20">
-          <h1 className="text-3xl font-bold">Client Kami</h1>
-          <p className="pt-3">Berikut beberapa perusahaan, instansi, sekolah dan kampus yang sudah bergabung bersama kami</p>
-        </div>
+    <div className="w-full flex-col justify-center items-center py-20 bg-white" id="portfolio">
+      <div className="flex flex-col justify-center items-center pt-10 pb-20">
+        <h1 className="text-3xl font-bold">Client Kami</h1>
+        <p className="pt-3">Berikut beberapa perusahaan, instansi, sekolah dan kampus yang sudah bergabung bersama kami</p>
+      </div>
       <Swiper
         loop={true}
         autoplay={{
@@ -39,7 +39,7 @@ export default function PartnerCarousel() {
           </div>
         </SwiperSlide>
 
-                <SwiperSlide>
+        <SwiperSlide>
           <div className="flex justify-center items-center gap-60">
 
             <img src="/client/client-8.png" alt="Logo 9" className="w-50 h-50 object-contain" />
