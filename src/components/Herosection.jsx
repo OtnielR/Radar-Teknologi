@@ -12,7 +12,7 @@ function Herosection() {
             </div>
         </div>
         <div className="right">
-            <img src="hero-img.png" alt="" className='w-250' />
+            <img src="hero-img.png" alt="" className='w-[250]' />
         </div>
     </div>
   )
