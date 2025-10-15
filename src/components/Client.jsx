@@ -3,7 +3,28 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 
+
 export default function PartnerCarousel() {
+
+  let clientLogoPath = ["/client/bhaktianindya.png", "/client/client-1.png", "/client/client-2.png", "/client/client-3.png", "/client/client-4.png", "/client/client-5.png", "/client/client-6.png", "/client/client-7.png", "/client/client-8.png", "/client/client-9.png", "/client/client-10.png", "/client/client-11.png",]
+  let numberOfSection = Math.ceil(clientLogoPath.length / 4)
+  const swiperSection = []
+
+
+  for (let i = 0; i < numberOfSection; i++) {
+    swiperSection.push(<>
+      <SwiperSlide>
+        <div className="flex justify-center items-center gap-60">
+          <img src={clientLogoPath[i * numberOfSection]} alt="Logo 1" className="w-50 h-50 object-contain" />
+          <img src={clientLogoPath[i * numberOfSection + 1]} alt="Logo 1" className="w-50 h-50 object-contain" />
+          <img src={clientLogoPath[i * numberOfSection + 2]} alt="Logo 1" className="w-50 h-50 object-contain" />
+          <img src={clientLogoPath[i * numberOfSection + 3]} alt="Logo 1" className="w-50 h-50 object-contain" />
+        </div>
+      </SwiperSlide>
+    </>)
+  }
+
+
   return (
     <div className="w-full flex-col justify-center items-center py-20 bg-white" id="portofolio">
       <div className="flex flex-col justify-center items-center pt-10 pb-20">
@@ -20,35 +41,7 @@ export default function PartnerCarousel() {
         className="w-[90%]"
       >
 
-
-        <SwiperSlide>
-          <div className="flex justify-center items-center gap-60">
-            <img src="/client/bhaktianindya.png" alt="Logo 1" className="w-50 h-50 object-contain" />
-            <img src="/client/client-1.png" alt="Logo 2" className="w-50 h-50 object-contain" />
-            <img src="/client/client-2.png" alt="Logo 3" className="w-50 h-50 object-contain" />
-            <img src="/client/client-3.png" alt="Logo 4" className="w-50 h-50 object-contain" />
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="flex justify-center items-center gap-60">
-            <img src="/client/client-4.png" alt="Logo 5" className="w-50 h-50 object-contain" />
-            <img src="/client/client-5.png" alt="Logo 6" className="w-50 h-50 object-contain" />
-            <img src="/client/client-6.png" alt="Logo 7" className="w-50 h-50 object-contain" />
-            <img src="/client/client-7.jpg" alt="Logo 8" className="w-50 h-50 object-contain" />
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="flex justify-center items-center gap-60">
-
-            <img src="/client/client-8.png" alt="Logo 9" className="w-50 h-50 object-contain" />
-            <img src="/client/client-9.jpg" alt="Logo 10" className="w-50 h-50 object-contain" />
-            <img src="/client/client-10.png" alt="Logo 11" className="w-50 h-50 object-contain" />
-            <img src="/client/client-11.png" alt="Logo 12" className="w-50 h-50 object-contain" />
-
-          </div>
-        </SwiperSlide>
+        {swiperSection}
       </Swiper>
     </div>
   );

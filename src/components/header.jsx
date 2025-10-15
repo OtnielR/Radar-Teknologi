@@ -3,13 +3,13 @@ import React from 'react'
 function Header() {
   return (
     <>
-      <div className='flex justify-between text-white items-center mx-12 '>
+      <div className='flex justify-left text-white items-center md:mx-12 '>
 
         <div className='pt-8 mx-8  flex items-center gap-3'>
           <div className="logo w-15"><img src="logo.png" /></div>
-          <div className='font-bold text-2xl mx-2'>Radar Teknologi Komputer </div>
+          <div className='font-bold text-xl md:text-2xl mx-2'>Radar Teknologi Komputer </div>
         </div>
-        <div className='pt-8 mx-8'>
+        <div className='pt-8 mx-8 hidden md:block'>
           <a href="#" className="px-8 font- text-xl">Home</a>
           <a href="#service" className="px-8 font- text-xl">Service</a>
           <a href="#portofolio" className="px-8 font- text-xl">Portofolio</a>
