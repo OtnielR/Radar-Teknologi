@@ -1,54 +1,75 @@
+import React from "react";
+
 export default function Footer() {
   return (
-    <div className="flex flex-col justify-center px-10 mx-19">
-      <div className="atas flex flex-row justify-between bg-white items-center px-10 py-4 rounded-lg shadow-2xl">
-        <div className="">
-          <h1 className="items-center text-2xl font-bold">Semangat Menjelajahi Teknologi? Kami juga. Ayo Mulai Bersama!</h1>
-
-        </div>
-        <div className="text-lg text-white bg-[#2a3342] rounded-lg">
-          <button className="py-2 px-8 font-bold">Chat on WhatsApp</button></div>
+    <footer className="flex flex-col justify-center px-6 md:px-10 py-10 bg-[#f8f9fa]">
+    
+      <div className="flex flex-col md:flex-row justify-between items-center bg-white px-6 md:px-10 py-6 rounded-2xl shadow-xl text-center md:text-left gap-4 md:gap-0">
+        <h1 className="text-xl md:text-2xl font-bold text-[#2a3342] leading-snug">
+          Semangat Menjelajahi Teknologi? Kami juga. <br className="hidden md:block" /> Ayo Mulai Bersama!
+        </h1>
+        <button className="bg-[#2a3342] text-white font-bold py-3 px-8 rounded-lg hover:bg-[#3a4457] transition">
+          Chat on WhatsApp
+        </button>
       </div>
 
-
-
-      <div className="bawah flex justify-between my-10 gap-6">
-        <div className="kiri items-center text-center bg-[#2a3342] py-25 px-25 rounded-lg w-5/12">
-          <div className="flex flex-row items-center justify-center gap-2">
-            <img src="logo.png" alt="" className="logo w-15" />
-            <div className="flex flex-col">
-              <h2 className="text-4xl text-white font-bold text-left whitespace-nowrap">Radar Teknologi</h2>
-              <h1 className="text-5xl text-white font-bold text-left">Komputer</h1>
+      
+      <div className="flex flex-col lg:flex-row justify-between items-center lg:items-stretch my-12 gap-10">
+        
+        <div className="flex flex-col justify-center items-center text-center bg-[#2a3342] text-white rounded-2xl p-10 w-full lg:w-1/2 shadow-xl">
+          <div className="flex flex-col sm:flex-row items-center justify-center sm:gap-4">
+            <img
+              src="logo.png"
+              alt="Logo Radar Teknologi Komputer"
+              className="w-16 h-16 object-contain mb-3 sm:mb-0"
+            />
+            <div className="flex flex-col leading-tight sm:text-left text-center">
+              <h2 className="text-3xl md:text-4xl font-bold">Radar Teknologi</h2>
+              <h1 className="text-4xl md:text-5xl font-extrabold">Komputer</h1>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-col justify-between w-270 items-start bg-white py-10 px-20 rounded-lg shadow-2xl">
+        
+        <div className="flex flex-col justify-between bg-white rounded-2xl shadow-xl w-full lg:w-1/2 p-8 md:p-12">
           <div>
-            <div className="bg-[#2a3342] text-white text-center font-semibold px-5 py-2 rounded-lg mb-10">
+            <div className="bg-[#2a3342] text-white text-center font-semibold px-5 py-2 rounded-lg mb-8 inline-block">
               Profesional Partner
             </div>
-            <div className="flex flex-wrap gap-10 mb-3 text-lg">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-            </div>
-            <div className="flex flex-wrap gap-10 mb-5 text-lg">
-              <a href="#">Portofolio</a>
-              <a href="#">Blogs</a>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-4 gap-x-8 text-lg text-[#2a3342]">
+              <a href="#" className="hover:text-[#e34040] transition">Home</a>
+              <a href="#" className="hover:text-[#e34040] transition">About</a>
+              <a href="#" className="hover:text-[#e34040] transition">Services</a>
+              <a href="#" className="hover:text-[#e34040] transition">Portofolio</a>
+              <a href="#" className="hover:text-[#e34040] transition">Blogs</a>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-center w-full text-sm border-t pt-6">
-            <p>© 2025 Radar Teknologi Komputer. All rights reserved.</p>
-            <div className="flex gap-8 mt-2 md:mt-0">
-              <a href="#">Terms</a>
-              <a href="#">Privacy</a>
+
+          <div className="flex flex-col md:flex-row justify-between items-center w-full text-sm border-t pt-6 mt-8 text-gray-600">
+            <p className="text-center md:text-left">
+              © 2025 Radar Teknologi Komputer. All rights reserved.
+            </p>
+            <div className="flex gap-6 mt-3 md:mt-0">
+              <a href="#" className="hover:text-[#e34040] transition">Terms</a>
+              <a href="#" className="hover:text-[#e34040] transition">Privacy</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  )
 
+    
+      <div className="flex justify-center md:justify-end gap-6 text-[#2a3342] mt-6">
+        <a href="#" className="hover:text-[#e34040] transition">
+          <i className="fab fa-facebook-f text-xl"></i>
+        </a>
+        <a href="#" className="hover:text-[#e34040] transition">
+          <i className="fab fa-instagram text-xl"></i>
+        </a>
+        <a href="#" className="hover:text-[#e34040] transition">
+          <i className="fab fa-linkedin-in text-xl"></i>
+        </a>
+      </div>
+    </footer>
+  );
 }
-

@@ -4,8 +4,9 @@ import Service from "./components/Service";
 import Persuasi from "./components/Persuasi";
 import Contact from "./components/Contact";
 import Client from "./components/Client";
-import Header from "./components/Header";
+import Header from "./components/header";
 import Footer from "./components/Footer";
+import Visi from "./components/Visi";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Herosection/>
     </div>
       <About/>
+      <Visi/>
       <Service/>
       <Client/>
       <Persuasi/>
