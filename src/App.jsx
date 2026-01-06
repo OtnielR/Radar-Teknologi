@@ -1,32 +1,16 @@
-import Herosection from "./components/Herosection";
-import About from "./components/About";
-import Service from "./components/Service";
-import Persuasi from "./components/Persuasi";
-import Contact from "./components/Contact";
-import Client from "./components/Client";
-import Header from "./components/header";
-import Footer from "./components/Footer";
-import Visi from "./components/Visi";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/main";
+import Blogs from "./pages/blog";
 
 function App() {
   return (
     <>
-
-    <div className="bg-[#2a3342]">
-
-      <Header></Header>
-      <Herosection/>
-    </div>
-      <About/>
-      <Visi/>
-      <Service/>
-      <Client/>
-      <Persuasi/>
-      <Contact/>
-      <Footer/>
-    
-
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main></Main>}></Route>
+          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

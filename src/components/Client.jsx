@@ -13,9 +13,9 @@ export default function PartnerCarousel() {
     "/client/client-4.png",
     "/client/client-5.png",
     "/client/client-6.png",
-    "/client/client-7.png",
+    "/client/client-7.jpg",
     "/client/client-8.png",
-    "/client/client-9.png",
+    "/client/client-9.jpg",
     "/client/client-10.png",
     "/client/client-11.png",
   ];

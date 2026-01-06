@@ -21,11 +21,11 @@ export default function Footer() {
             <img
               src="logo.png"
               alt="Logo Radar Teknologi Komputer"
-              className="w-16 h-16 object-contain mb-3 sm:mb-0"
+              className="w-25 h-25 object-contain mb-3 sm:mb-0"
             />
             <div className="flex flex-col leading-tight sm:text-left text-center">
               <h2 className="text-3xl md:text-4xl font-bold">Radar Teknologi</h2>
-              <h1 className="text-4xl md:text-5xl font-extrabold">Komputer</h1>
+              <h1 className="text-4xl md:text-6xl font-bold">Komputer</h1>
             </div>
           </div>
         </div>

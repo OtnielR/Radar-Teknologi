@@ -36,7 +36,7 @@ function Contact() {
           <div className="flex-shrink-0">
             <div className="bg-[#e34040] p-3 rounded-xl">
               <img
-                src="icons8-phone-48.png"
+                src="calling.png"
                 alt="Phone Icon"
                 className="w-10 h-10"
               />
@@ -54,7 +54,7 @@ function Contact() {
           <div className="flex-shrink-0">
             <div className="bg-[#e34040] p-3 rounded-xl">
               <img
-                src="icons8-instagram-48.png"
+                src="internet.png"
                 alt="Social Icon"
                 className="w-10 h-10"
               />

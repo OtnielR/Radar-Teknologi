@@ -11,7 +11,7 @@ function HeroSection() {
           Kami adalah mitra anda mengatasi masalah di bidang IT Support dan Helpdesk serta Pendidikan Teknologi.
         </p>
         <div className="flex justify-center md:justify-start">
-          <button className="bg-[#e34040] px-5 py-2 rounded-md font-semibold text-sm sm:text-base tracking-wide hover:bg-[#c92d2d] transition-all">
+          <button className="bg-[#e34040] px-5 py-2 rounded-md font-semibold text-sm sm:text-base tracking-wide transition-all">
             RADAR TEKNOLOGI KOMPUTER
           </button>
         </div>

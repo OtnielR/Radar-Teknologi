@@ -7,7 +7,8 @@ function Service() {
       </div>
 
       <div className="flex flex-col lg:flex-row lg:gap-12 justify-center items-center gap-20 py-30">
-        <div className="relative flex flex-col lg:flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white">
+        {/* Card 1 */}
+        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white transition-all duration-500 hover:-translate-y-4 hover:scale-105 hover:shadow-3xl hover:bg-gray-50">
           <div className="absolute -top-30">
             <img src="csc.png" alt="CSC Komputer" className="w-66 h-66 object-contain" />
           </div>
@@ -19,7 +20,8 @@ function Service() {
           </div>
         </div>
 
-        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white">
+        {/* Card 2 */}
+        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white transition-all duration-500 hover:-translate-y-4 hover:scale-105 hover:shadow-3xl hover:bg-gray-50">
           <div className="absolute -top-25">
             <img src="radar-edu.png" alt="Radar Education Center" className="w-56 h-56 object-contain" />
           </div>
@@ -31,7 +33,8 @@ function Service() {
           </div>
         </div>
 
-        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white">
+        {/* Card 3 */}
+        <div className="relative flex flex-col items-center text-center shadow-2xl rounded-3xl p-12 w-96 bg-white transition-all duration-500 hover:-translate-y-4 hover:scale-105 hover:shadow-3xl hover:bg-gray-50">
           <div className="absolute -top-25">
             <img src="ahsa.png" alt="AHSA Kreatif" className="w-56 h-56 object-contain" />
           </div>
