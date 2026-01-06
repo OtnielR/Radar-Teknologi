@@ -1,9 +1,9 @@
 {
-  "name": "radarteknologi",
+  "name": "radar-teknologi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/OtnielR/Radar-Teknologi",
+  "homepage": "https://otnielr.github.io/Radar-Teknologi",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5",

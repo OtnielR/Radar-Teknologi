@@ -7,7 +7,7 @@ const articles = [
     category: "Lingkungan",
     excerpt:
       "Pelajari langkah praktis mengubah sampah plastik menjadi produk berguna — dari pengumpulan hingga teknik daur ulang sederhana.",
-    image: "article/article1.webp",
+    image: "article1.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const articles = [
     category: "Teknologi",
     excerpt:
       "Mulai dari instalasi sampai deployment mobile — panduan ringkas membuat game RPG 2.5D menggunakan Godot dengan gaya low-poly.",
-    image: "article/article2.webp",
+    image: "article2.webp",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const articles = [
     category: "Pendidikan",
     excerpt:
       "Strategi sederhana untuk meningkatkan fokus dan manajemen waktu bagi pelajar yang terganggu oleh notifikasi.",
-    image: "article/article3.webp",
+    image: "article3.webp",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const articles = [
     category: "Pendidikan",
     excerpt:
       "Strategi sederhana untuk meningkatkan fokus dan manajemen waktu bagi pelajar yang terganggu oleh notifikasi.",
-    image: "article/article3.webp",
+    image: "article3.webp",
   },
 ];
 

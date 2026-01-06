@@ -25,7 +25,7 @@ function IsiContent() {
           <div className="w-full md:w-1/2">
             <div className="relative w-full aspect-video overflow-hidden rounded-2xl shadow-lg border border-gray-100">
               <img
-                src="ningpt2.jpg"
+                src="article4.webp"
                 alt="Tutorial Excel"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
               />

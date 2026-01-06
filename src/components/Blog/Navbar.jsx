@@ -11,21 +11,21 @@ function Header() {
       </div>
 
       <nav className="hidden md:flex gap-8 text-[16px] font-medium">
-        <a href="/#" className="hover:text-[#e34040] transition-colors">
+        <Link to="/#" className="hover:text-[#e34040] transition-colors">
           Home
-        </a>
-        <a href="/#about" className="hover:text-[#e34040] transition-colors">
+        </Link>
+        <Link to="/#about" className="hover:text-[#e34040] transition-colors">
           About
-        </a>
-        <a href="/#services" className="hover:text-[#e34040] transition-colors">
+        </Link>
+        <Link to="/#services" className="hover:text-[#e34040] transition-colors">
           Services
-        </a>
-        <a
-          href="/#portofolio"
+        </Link>
+        <Link
+          to="/#portofolio"
           className="hover:text-[#e34040] transition-colors"
         >
           Portofolio
-        </a>
+        </Link>
         <Link to="/blogs" className="hover:text-[#e34040] transition-colors">
           Blogs
         </Link>

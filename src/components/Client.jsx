@@ -6,18 +6,18 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 export default function PartnerCarousel() {
   const clientLogoPath = [
-    "/client/bhaktianindya.png",
-    "/client/client-1.png",
-    "/client/client-2.png",
-    "/client/client-3.png",
-    "/client/client-4.png",
-    "/client/client-5.png",
-    "/client/client-6.png",
-    "/client/client-7.jpg",
-    "/client/client-8.png",
-    "/client/client-9.jpg",
-    "/client/client-10.png",
-    "/client/client-11.png",
+    "bhaktianindya.png",
+    "client-1.png",
+    "client-2.png",
+    "client-3.png",
+    "client-4.png",
+    "client-5.png",
+    "client-6.png",
+    "client-7.jpg",
+    "client-8.png",
+    "client-9.jpg",
+    "client-10.png",
+    "client-11.png",
   ];
 
   return (
@@ -44,9 +44,9 @@ export default function PartnerCarousel() {
         navigation={true}
         modules={[Autoplay, Navigation]}
         breakpoints={{
-          0: { slidesPerView: 2, spaceBetween: 20 }, 
-          768: { slidesPerView: 3, spaceBetween: 30 }, 
-          1024: { slidesPerView: 4, spaceBetween: 40 }, 
+          0: { slidesPerView: 2, spaceBetween: 20 },
+          768: { slidesPerView: 3, spaceBetween: 30 },
+          1024: { slidesPerView: 4, spaceBetween: 40 },
         }}
         className="w-[90%]"
       >
